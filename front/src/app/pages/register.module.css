@@ -1,0 +1,18 @@
+.registerContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.leftColumn,
+.rightColumn {
+  flex: 1;
+  height: 100%;
+}
+
+.leftColumn {
+  background-color: rgba(156, 108, 108, 0.521);
+}
+
+.rightColumn {
+  background-color: rgba(255, 255, 255, 0.404);
+}
