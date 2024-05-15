@@ -170,7 +170,7 @@ const Register: React.FC<Props> = () => {
               </Box>
             </form>
             <Typography variant="body1" color="textSecondary" align="center" sx={{ mt: 4 }}>
-              Already registered? <Link to="/login">Log in here</Link>
+              Already registered? <Link to="/">Log in here</Link>
             </Typography>
           </Box>
         </Container>
