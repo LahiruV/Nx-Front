@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './register.module.css';
 import { TextField, Button, Container, Typography, Box } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 interface Props { }
 
@@ -28,7 +29,7 @@ const Register: React.FC<Props> = ({ }) => {
             alignItems="center"
             borderRadius={3}
           >
-            <Typography variant="h4" align="center" sx={{ mb: 3 }}>
+            <Typography variant="h3" color="primary" align="center" sx={{ mb: 3, fontWeight: 'bold' }}>
               Register
             </Typography>
             <form>
@@ -75,6 +76,9 @@ const Register: React.FC<Props> = ({ }) => {
                 </Button>
               </Box>
             </form>
+            <Typography variant="body1" color="textSecondary" align="center" sx={{ mt: 4, ml:33 }}>
+              Already registered? <Link to="/login">Log in here</Link>
+            </Typography>
           </Box>
         </Container>
       </div>
